@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-in,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url("https://cdn.yeudulich.com/640x360/media/catalog/product/58/28/a729-6514-47a6-a7f7-52998258ed48.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  
+}
+
+.products {
+  background-image: url("https://www.hoangviettravel.com.vn/sites/default/files/hinh-anh-tour-du-lich-phap-thuy-sy-y-vatican-monaco-12n11d-bay-qatar-airways.jpg  ");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  
+}
+
+
+.sign-in{
+  background-image: url("https://media.vietravel.com/images/NewsPicture/Thuy-Si.1.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sign-up {
+  background-image: url("https://tourhot24h.vn/wp-content/uploads/2019/09/du-lich-nui-phu-si-nhat-ban-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
